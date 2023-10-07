@@ -7,7 +7,8 @@
     "download": "nodemon ./download/index.js",
     "download:test": "node --prof ./download/index.js",
     "download:devtool:test": "node --inspect-brk ./download/index.js",
-    "thread": "nodemon ./thread/index.js"
+    "thread": "nodemon ./thread/index.js",
+    "cluster": "nodemon ./cluster/index.js"
   },
   "keywords": [
     "nodejs",
