@@ -29,6 +29,7 @@ koa.use(async (ctx, next) => {
 });
 
 koa.use(Koa_mount('/', ctx => {
+    console.log(window.location.href);
     const {response} = ctx;
     response.status = 200;
     response.type = 'html';
