@@ -6,7 +6,8 @@
   "scripts": {
     "download": "nodemon ./download/index.js",
     "download:test": "node --prof ./download/index.js",
-    "download:devtool:test": "node --inspect-brk ./download/index.js"
+    "download:devtool:test": "node --inspect-brk ./download/index.js",
+    "thread": "nodemon ./thread/index.js"
   },
   "keywords": [
     "nodejs",
