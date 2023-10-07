@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-whale-performance",
+  "version": "0.0.1",
+  "description": "nodejs whale performance",
+  "main": "index.js",
+  "scripts": {
+    "download": "nodemon ./download/index.js",
+    "download:test": "node --prof ./download/index.js",
+    "download:devtool:test": "node --inspect-brk ./download/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "performance"
+  ],
+  "repository": "git@github.com:w-t-w/nodejs-whale-performance.git",
+  "author": "w-t-w",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.14.2",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
+  }
+}
